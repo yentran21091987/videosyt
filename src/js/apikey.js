@@ -1,1 +1,1 @@
-var browserKey = 'AIzaSyAJHspdt8XqcygBU2aN9H2QLD1YxHGBbwQ';
+var browserKey = 'AIzaSyAdOQFuxYWDwaa-aMUzqxonHbHqPFShWhQ';
