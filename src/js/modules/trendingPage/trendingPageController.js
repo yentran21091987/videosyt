@@ -5,37 +5,37 @@
                 var categoryId;
                 switch ($stateParams.category) {
                     case 'music':
-						document.title = 'Tootub - Trending Music Videos';
+						document.title = 'VideosYT - Vídeos musicais de tendências';
                         $scope.title = 'Trending Music Videos';
                         categoryId = 10;
                         break;
                     case 'sports':
-						document.title = 'Tootub - Trending Sports Videos';
+						document.title = 'VideosYT - Vídeos esportivos de tendências';
                         $scope.title = 'Trending in Sports';
                         categoryId = 17;
                         break;
                     case 'technology':
-						document.title = 'Tootub - Trending Technology Videos';
+						document.title = 'VideosYT - Vídeos de tecnologia de tendências';
                         $scope.title = 'Trending Technology Videos';
                         categoryId = 28;
                         break;
                     case 'movies':
-						document.title = 'Tootub - Trending Movies Videos';
+						document.title = 'VideosYT - Trending Movies Videos';
                         $scope.title = 'Trending Movies Videos';
                         categoryId = 1;
                         break;
                     case 'comedy':
-						document.title = 'Tootub - Trending Comedy Videos';
+						document.title = 'VideosYT - Trending Comedy Videos';
                         $scope.title = 'Trending Comedy Video';
                         categoryId = 23;
                         break;
                     case 'People & Blogs':
-						document.title = 'Tootub - Trending People & Blogs Videos';
+						document.title = 'VideosYT - Vídeos populares de pessoas e blogs';
                         $scope.title = 'Trending People & Blogs Videos';
                         categoryId = 15;
                         break;
                     default:
-						document.title = 'Tootub - Trending Videos';
+						document.title = 'VideosYT - Vídeos em destaque';
                         $scope.title = 'Trending Videos';
                         categoryId = null;
                 }
