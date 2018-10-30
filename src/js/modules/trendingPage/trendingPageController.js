@@ -6,17 +6,17 @@
                 switch ($stateParams.category) {
                     case 'music':
 						document.title = 'VideosYT - Vídeos musicais de tendências';
-                        $scope.title = 'Vídeos musicais de tendências';
+                        $scope.title = 'Trending Music Videos';
                         categoryId = 10;
                         break;
                     case 'sports':
 						document.title = 'VideosYT - Vídeos esportivos de tendências';
-                        $scope.title = 'Vídeos esportivos de tendências';
+                        $scope.title = 'Trending in Sports';
                         categoryId = 17;
                         break;
                     case 'technology':
 						document.title = 'VideosYT - Vídeos de tecnologia de tendências';
-                        $scope.title = 'Vídeos de tecnologia de tendências';
+                        $scope.title = 'Trending Technology Videos';
                         categoryId = 28;
                         break;
                     case 'movies':
@@ -31,12 +31,12 @@
                         break;
                     case 'People & Blogs':
 						document.title = 'VideosYT - Vídeos populares de pessoas e blogs';
-                        $scope.title = 'Vídeos populares de pessoas e blogs';
+                        $scope.title = 'Trending People & Blogs Videos';
                         categoryId = 15;
                         break;
                     default:
 						document.title = 'VideosYT - Vídeos em destaque';
-                        $scope.title = 'Vídeos em destaque';
+                        $scope.title = 'Trending Videos';
                         categoryId = null;
                 }
 
