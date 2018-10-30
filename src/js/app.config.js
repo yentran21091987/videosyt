@@ -1,5 +1,5 @@
 var youtubeApi = null;
-var country = 'BR';
+var country = 'PT';
 
 function init() {
     gapi.client.setApiKey(browserKey);
