@@ -4,17 +4,17 @@
 			//document.title = 'Youtube in US';
             $scope.videoCategories = [{
                 'snippet': {
-                    'title': 'Popular Now'
+                    'title': 'Popular Agora'
                 }
 			}, {
                 'id': 1,
                 'snippet': {
-                    'title': 'Film & Entertainment'
+                    'title': 'Filme e Entretenimento'
                 }
 	        }, {
                 'id': 15,
                 'snippet': {
-                    'title': 'People & Blogs'
+                    'title': 'Pessoas e Blogs'
                 }
 			}, {
                 'id': 2,
@@ -24,22 +24,22 @@
             }, {
                 'id': 10,
                 'snippet': {
-                    'title': 'Music'
+                    'title': 'Música'
                 }
             }, {
                 'id': 23,
                 'snippet': {
-                    'title': 'Comedy'
+                    'title': 'Comédia'
                 }
             }, {
                 'id': 17,
                 'snippet': {
-                    'title': 'Sports'
+                    'title': 'Esportes'
                 }
             }, {
                 'id': 28,
                 'snippet': {
-                    'title': 'Technology'
+                    'title': 'Tecnologia'
                 }
             }, {
                 'id': 20,
